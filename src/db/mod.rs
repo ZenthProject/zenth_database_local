@@ -4,6 +4,7 @@ pub mod crypto;
 pub mod error;
 pub mod paths;
 pub mod time;
+pub mod prekeys;
 
 pub use master::MasterDb;
 pub use user::UserDb;

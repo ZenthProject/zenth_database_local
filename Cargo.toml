@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 zenth_crypto = { git = "https://github.com/ZenthProject/zenth_crypto.git" }
+zenth_utils = { git = "https://github.com/ZenthProject/zenth_utils.git" }
 rusqlite_migration = "2.2.0"
 rusqlite = { version = "0.36", features = ["bundled-sqlcipher-vendored-openssl"] }
 thiserror = "2.0.20"
